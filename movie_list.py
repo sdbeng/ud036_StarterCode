@@ -1,6 +1,7 @@
 import movie_factory
 import fresh_tomatoes
 
+# create several Movie class instances
 iron_man = movie_factory.Movie("Iron Man",
  "A Genius engineer got to build a robot from metal scraps", "http://www.gstatic.com/tv/thumb/movieposters/170620/p170620_p_v8_ax.jpg",
   "https://www.youtube.com/watch?v=LWbjrFCecPY")
@@ -28,6 +29,10 @@ stars_wars = movie_factory.Movie("Stars Wars - The Force Awakens",
  "Falcon at its best", "http://t0.gstatic.com/images?q=tbn:ANd9GcT6nGxj1D4P-9EiVSY32sb6Ql-XQrbeK5FgM37UI6QxcZwfcfVw",
   "https://www.youtube.com/watch?v=OMOVFvcNfvE")
 
+# print(stars_wars.title)
+
+# create a list to hold all the movie instances
 movies = [iron_man, rambo, terminator, fury, private_ryan, stars_wars]
-# call fresh_tomatoes to generate html
+
+# call open_movies_page on fresh_tomatoes to generate html by passing a list of movies
 fresh_tomatoes.open_movies_page(movies)
