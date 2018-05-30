@@ -1,5 +1,5 @@
 # Project: movie trailer website
- to generate a website that displays my favorite movies and tv shows.
+Back end code in python to generate a website that displays my favorite movies and tv shows.
 
 ## Install
 Clone the project and run this command on your terminal:
