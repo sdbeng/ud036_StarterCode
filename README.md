@@ -1,2 +1,2 @@
-# ud036_StarterCode
-Source code for a Movie Trailer website.
+# Project: movie trailer website
+Back end code to generate a website that displays my favorite movies and tv shows.
