@@ -46,5 +46,5 @@ stars_wars = media.Movie(
 # create a list to hold all the movie instances
 movies = [iron_man, rambo, terminator, fury, private_ryan, stars_wars]
 
-# call open_movies_page method on fresh_tomatoes
+# call fresh_tomatoes file to open a new html file in the  browser
 fresh_tomatoes.open_movies_page(movies)

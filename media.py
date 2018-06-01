@@ -2,7 +2,7 @@ import webbrowser
 
 
 class Movie():
-    """ This class provides a way to store movie related information """
+    """ This class creates a data structure that defines the methods to store movies properties and display movies trailer """
     def __init__(
             self,
             movie_title,
