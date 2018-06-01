@@ -3,7 +3,7 @@ import webbrowser
 
 class Movie():
     """ This class creates a data structure that defines
-    the methods to store movies properties """
+    the methods to store movie properties """
     def __init__(
             self,
             movie_title,
