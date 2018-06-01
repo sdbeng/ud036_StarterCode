@@ -3,7 +3,7 @@ Back end code in python to generate a website that displays my favorite movies a
 
 ## How to run the code
 
-To work on in project you need to install python
+To work on this project you will need to install python
 
 Steps
 1. Clone the project or download it to your computer
