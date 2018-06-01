@@ -2,7 +2,8 @@ import webbrowser
 
 
 class Movie():
-    """ This class creates a data structure that defines the methods to store movies properties and display movies trailer """
+    """ This class creates a data structure that defines
+    the methods to store movies properties """
     def __init__(
             self,
             movie_title,
@@ -15,4 +16,5 @@ class Movie():
         self.trailer_youtube_url = trailer_youtube
 
     def show_trailer(self):
+        """ method to display movies trailer on a web browser """
         webbrowser.open(self.trailer_youtube_url)
