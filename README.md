@@ -12,3 +12,4 @@ Steps
 python entertainment_center.py
 ```
 3. It will open a new browser window with 6 movie titles where you can play each trailer.
+4. Add more movie instances and start making some high school memories!
